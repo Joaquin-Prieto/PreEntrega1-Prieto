@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Conversor de monedas</title>
+</head>
+
+<body>
+    <nav>
+
+        <ul>
+            <li><a href="#"><img src="" alt=""></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </nav>
+    <header>
+
+    </header>
+    <main>
+        <h1>Convierte pesos argentinos a monedas extranjeras</h1>
+
+    <div id="contenedor">
+        
+       <div id="grid1">
+
+        <label for="numero"><img src="./img/1f1e6-1f1f7.png" alt="arg" class="bandera" id="arg"></label>
+       <form > <input type="number" id="numero" name="numero" placeholder="ARS" >
+    </form>
+        <button onclick="valorSeleccionado()" id="bttn">Convertir</button>
+    
+     </div>
+    <img src="./img/Exchange-Transparent-Background.png" alt="exch" id="exch">  
+    <div id="resultadocss">
+        
+        <select name="moneda" id="moneda" onchange="">
+            <option value="Select" id="select">Seleccione una moneda</option>
+            <option value="_dolar_" id="_dolar_blue_">USD blue</option>
+            <option value="_euro_" id="_dolar_">USD oficial</option>
+            <option value="_euro_" id="_euro_">EU</option>
+        </select> 
+        <h1 id='conversion'></h1>
+      </div>
+       
+ <div></div>
+    </div>
+</main>
+    
+</body>
+<script src="./js/miarchivo.js"></script>
+
+</html>
